@@ -105,7 +105,8 @@ module.exports = {
         // allow, and sometimes even encourage use before definition in order
         // to generate cleaner code where the core functionality is at the top
         // and helpers are at the bottom. Instead of vice-versa.
-        'no-use-before-define': [ 0 ]
+        'no-use-before-define': [ 0 ],
+        'no-debugger': [ 2 ]
     },
     env: {
         'node': true,
